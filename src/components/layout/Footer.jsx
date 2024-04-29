@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import Scrolltop from './Scrolltop';
 import { footUl, bannerImage, serviceFootLi, socialFootLi, disclaim, conItems, footerTitle, otherFootLi } from '../layout/footerData';
-import logo from '../../../public/assets/images/logo.webp'
+// import logo from '../../../public/assets/images/logo.webp'
 
 import { Col, Container, Form, Row } from 'react-bootstrap';
 
@@ -17,7 +17,7 @@ export default function Footer() {
                                 <div className="footer_box foo1">
                                     <div className='foot_logo'>
                                         <NavLink to='/'>
-                                            <img src={logo} alt='logo.svg' className='img-fluid' width={180} />
+{/*                                             <img src={logo} alt='logo.svg' className='img-fluid' width={180} /> */}
                                         </NavLink>
                                     </div>
                                     <ul className='social-link'>
