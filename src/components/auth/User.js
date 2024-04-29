@@ -1,0 +1,1 @@
+export const id = localStorage.getItem('wqe2ewqe234rewr43r4wer4qwq3rwrr34rt4werwe');

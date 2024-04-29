@@ -1,0 +1,28 @@
+export const whatAre = [
+    { image : "assets/images/new_img/edenberg.webp", },
+    { image : "assets/images/new_img/greenwich.webp" },
+    { image : "assets/images/new_img/liverpool.webp" },
+    { image : "assets/images/new_img/cambridge.webp" },
+    { image : "assets/images/new_img/stirling.webp" },
+    { image : "assets/images/new_img/bristol.webp" },
+    { image : "assets/images/new_img/sheffield.webp" },
+    { image : "assets/images/new_img/oxford.webp" },
+    
+    { image : "assets/images/new_img/edenberg.webp", },
+    { image : "assets/images/new_img/greenwich.webp" },
+    { image : "assets/images/new_img/liverpool.webp" },
+    { image : "assets/images/new_img/cambridge.webp" },
+    { image : "assets/images/new_img/stirling.webp" },
+    { image : "assets/images/new_img/bristol.webp" },
+    { image : "assets/images/new_img/sheffield.webp" },
+    { image : "assets/images/new_img/oxford.webp" },
+    
+    { image : "assets/images/new_img/edenberg.webp", },
+    { image : "assets/images/new_img/greenwich.webp" },
+    { image : "assets/images/new_img/liverpool.webp" },
+    { image : "assets/images/new_img/cambridge.webp" },
+    { image : "assets/images/new_img/stirling.webp" },
+    { image : "assets/images/new_img/bristol.webp" },
+    { image : "assets/images/new_img/sheffield.webp" },
+    { image : "assets/images/new_img/oxford.webp" },
+];
