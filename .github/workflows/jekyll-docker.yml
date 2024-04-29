@@ -21,4 +21,4 @@ jobs:
         server: ftp.assignmentexperthelp.co.uk
         username: u225114590.fillmyitr.in
         password: Rathorekika@123
-        local-dir: ./build
+        local-dir: ./build/
