@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import axios from 'axios';
 import { BaseUrl,HEADERS } from '../../config';
-import logo from '../../../public/assets/images/logo.webp'
+// import logo from '../../../public/assets/images/logo.webp'
 import { navItem } from '../layout/headerData'
 import { Container, Navbar } from 'react-bootstrap';
 export default function Header() {
@@ -66,7 +66,7 @@ export default function Header() {
                 <Navbar expand="lg" className="navbar-light bg-light">
                     <Container>
                         <NavLink className='navbar-brand' to='/'>
-                            <img src={ logo } alt="logo.svg" className='img-fluid' width={200} />
+{/*                             <img src={ logo } alt="logo.svg" className='img-fluid' width={200} /> */}
                         </NavLink>
                         <div className="mobile">
                             <NavLink to='/order' className='btn btn-warning btn-sm' type='submit'>Order Now</NavLink>
