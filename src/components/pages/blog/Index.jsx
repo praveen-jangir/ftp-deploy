@@ -8,7 +8,7 @@ import { fetchData } from './actions';
 import { ImageAssets } from '../../../config';
 // import { blogBanner } from '../bannerData';
 import Diamond from '../../layout/Diamond';
-import Meta from '../../layout/meta';
+// import Meta from '../../layout/meta';
 import { Col, Container, Row } from 'react-bootstrap';
 export default function Blogs() {
     const dispatch = useDispatch();
@@ -59,7 +59,7 @@ export default function Blogs() {
     }, [data, blog, page]);
     return (
       <>
-        <Meta rule={document.location.href.split('/')[document.location.href.split('/').length-1]}/>
+{/*         <Meta rule={document.location.href.split('/')[document.location.href.split('/').length-1]}/> */}
         {/* <InnerBanner {...blogBanner} /> */}
         <Breadcrumb />
         <div className="other-body pd-40">
